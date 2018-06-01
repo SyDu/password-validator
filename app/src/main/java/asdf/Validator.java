@@ -1,15 +1,17 @@
+package asdf;
+
 import java.util.regex.Pattern;
 
 public class Validator {
 
-    private String pass;
+    private CharSequence  pass;
 
-    public Validator(String input)
+    public Validator(CharSequence input)
     {
-        pass=input;
+       this.pass=input;
     }
 
-    public String getPass()
+    public CharSequence getPass()
     {
         return pass;
     }
